@@ -1,7 +1,7 @@
 import type { Advertisement, ApiEnvelope, AuditLog, AuthState, BillingPlan, DashboardStats, OnlineOrder, Pharmacy, PharmacySubscription, PlatformSettings, Product, ProfitReport, Sale, ShiftReport, User } from '../types';
 import { clearAuth, readAuth, saveAuth, storageKeys } from '../utils/storage';
 
-const API_BASE = '/server';
+const API_BASE = '';
 
 type RequestOptions = RequestInit & { skipRefresh?: boolean };
 type AuthEnvelope = ApiEnvelope<{
